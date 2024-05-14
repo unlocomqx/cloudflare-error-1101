@@ -7,8 +7,7 @@ import postgres from 'postgres';
 // postgres db for testing
 export const queryClient = postgres('postgres://postgres.zqdukdapfcuxfqcvoohu:MnnIyKLcaUL3HEDK@aws-0-eu-central-1.pooler.supabase.com:5432/postgres', {
 	prepare: false,
-	debug: true,
-	max:100
+	debug: true
 });
 
 // const client = new Client({
