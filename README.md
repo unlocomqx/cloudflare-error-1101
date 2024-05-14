@@ -2,9 +2,13 @@
 
 # Run project
 ```bash
-run build
+pnpm install
+
+pnpm run build
 # or
-run build -- --watch
+pnpm run build -- --watch
+
+pnpm add -g wrangler@latest
 
 wrangler pages dev .svelte-kit/cloudflare --port=5173
 ```

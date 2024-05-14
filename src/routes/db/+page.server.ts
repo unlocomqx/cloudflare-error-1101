@@ -1,6 +1,5 @@
 import type { PageServerLoad } from './$types';
-import { db, queryClient } from '$lib/db';
-import { sql } from 'drizzle-orm';
+import {  queryClient } from '$lib/db';
 
 // create a sample promise
 async function getUsers() {
